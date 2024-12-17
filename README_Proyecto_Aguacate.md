@@ -391,6 +391,8 @@ Coeficiente: -0.000012 Interpretación: A medida que el volumen de aguacates 477
 Coeficiente: -0.000001 Interpretación: Aumentos en el volumen de bolsas totales están asociados con una ligera disminución en AveragePrice. Impacto: Insignificante.
 
 #5.8
+AveragePrice, Total Volume, 4046, 4225, y 4770.
+
 Comparación de modelos lineal y polinomico:
 
 Primer resultado:
@@ -416,6 +418,8 @@ La mayoría de los puntos predichos se alejan considerablemente de la línea ide
 La regresión polinómica logra una leve mejora en RMSE y R² en comparación con la regresión lineal, pero la diferencia sigue siendo pequeña.
 
 #5.9
+Total Volume, AveragePrice, y Total Bags
+
 Analisis de la influencia de total volume y total bags en average price: 
 
 ![image](https://github.com/user-attachments/assets/ce67a53e-7981-451d-9305-23ca3829e668)
@@ -425,3 +429,9 @@ Analisis de la influencia de total volume y total bags en average price:
 ![image](https://github.com/user-attachments/assets/ecfd04f6-e0c9-4ec6-bfe6-6bd557b7a5b2)
 
 #5.10
+AveragePrice, 4046, 4225, 4770, y Total Volume
+
+Grafico de valores predichos para el Average Price: 
+
+![Uploading image.png…]()
+
