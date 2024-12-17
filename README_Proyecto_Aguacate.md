@@ -154,9 +154,11 @@ Ciudades pequeñas: Máxima volatilidad, influenciadas por mercados locales más
 
 #1.4
 Tendencias de venta de aguacates Con outliers:
+
 ![image](https://github.com/user-attachments/assets/e61ba441-eb2d-4633-b82b-fc84ae876a93)
 
 Tendencias de venta de aguacates Sin outliers: 
+
 ![image](https://github.com/user-attachments/assets/277ab081-35ed-465d-ac5c-6a845df4a974)
 
 Umbral y Eliminación de Outliers:
@@ -166,12 +168,15 @@ Esto significa que cualquier valor de Total Volume que esté más allá de 3 des
 
 #1.5
 Analisis de cambios en precion anuales de aguacates:
+
 ![image](https://github.com/user-attachments/assets/7fc98854-3482-40e7-95bf-be58c2b62f4e)
 
 Primeros tres meses de cada año:
+
 ![image](https://github.com/user-attachments/assets/b0fd9a24-cf8d-4a3d-9707-f956cc907396)
 
 Usando regresión Lineal: 
+
 ![image](https://github.com/user-attachments/assets/a7e1bc5a-fc30-429f-a979-ee01f9b76ac5)
 
 Error Absoluto Medio (MAE): 0.0552
