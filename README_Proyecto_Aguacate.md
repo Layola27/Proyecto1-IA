@@ -205,7 +205,7 @@ Q1 = data['AveragePrice'].quantile(0.25)
 Q3 = data['AveragePrice'].quantile(0.75)
 IQR = Q3 - Q1
 
-# Filtrar los outliers fuera del rango [Q1 - 1.5 * IQR, Q3 + 1.5 * IQR]
+Filtrar los outliers fuera del rango [Q1 - 1.5 * IQR, Q3 + 1.5 * IQR] IQR =Rango Intercuartilico(=Diferencia Q3 y Q1)
 filtered_data = data[(data['AveragePrice'] >= (Q1 - 1.5 * IQR)) & (data['AveragePrice'] <= (Q3 + 1.5 * IQR))]
 
 Conclusión y Gráfico:
