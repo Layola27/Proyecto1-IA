@@ -361,7 +361,9 @@ La regresión polinómica de grado 2 ahora presenta un R² de 0.75, lo que signi
 
 El RMSE (error cuadrático medio) ha disminuido en ambos modelos, lo que indica una mejora en la precisión de las predicciones.
 
-#4.6,4.7
+#5.6,5.7
+Total Volume, 4046, 4225, 4770, y Total Bags
+
 Primer resultado:
 
 ![image](https://github.com/user-attachments/assets/9625537a-d1de-47fd-a58f-ad7837f75bae)
@@ -388,7 +390,7 @@ Coeficiente: -0.000012 Interpretación: A medida que el volumen de aguacates 477
 
 Coeficiente: -0.000001 Interpretación: Aumentos en el volumen de bolsas totales están asociados con una ligera disminución en AveragePrice. Impacto: Insignificante.
 
-#4.8
+#5.8
 Comparación de modelos lineal y polinomico:
 
 Primer resultado:
@@ -413,7 +415,7 @@ La mayoría de los puntos predichos se alejan considerablemente de la línea ide
 
 La regresión polinómica logra una leve mejora en RMSE y R² en comparación con la regresión lineal, pero la diferencia sigue siendo pequeña.
 
-#4.9
+#5.9
 Analisis de la influencia de total volume y total bags en average price: 
 
 ![image](https://github.com/user-attachments/assets/ce67a53e-7981-451d-9305-23ca3829e668)
