@@ -359,6 +359,11 @@ Aunque intentan capturar la no linealidad, introducen mayor error (RMSE) y tiene
 Regresión lineal vs polinómica:
 ![image](https://github.com/user-attachments/assets/43d89470-8675-4cfa-813f-d0c9b89e0bc7)
 
+Código de la regresión:
+
+![image](https://github.com/user-attachments/assets/ecf8a1c8-7d4b-43f8-a487-cdbc08a933a8)
+
+
 
 Regresión Lineal vs Polinómica
 ![image](https://github.com/user-attachments/assets/a309eb2d-cfec-466f-a858-33086709e63e)
@@ -377,6 +382,11 @@ Total Volume, 4046, 4225, 4770, y Total Bags
 Primer resultado:
 
 ![image](https://github.com/user-attachments/assets/9625537a-d1de-47fd-a58f-ad7837f75bae)
+
+Código de la regresión:
+
+![image](https://github.com/user-attachments/assets/e54e8eee-e187-4cc4-a7f9-658669b4138f)
+
 
 Resultado conseguido:
 
@@ -408,6 +418,11 @@ Comparación de modelos lineal y polinomico:
 Primer resultado:
 ![image](https://github.com/user-attachments/assets/54607d0c-5617-492a-9ab2-907c42fc0c7f)
 
+Código de la regresión:
+
+![image](https://github.com/user-attachments/assets/12aae6f7-1e8d-4465-9440-ca0026cc78c6)
+
+
 Resultado final:
 
 ![image](https://github.com/user-attachments/assets/4fc9288a-c332-49f6-9f59-ad570b9161b4)
@@ -434,12 +449,22 @@ Analisis de la influencia de total volume y total bags en average price:
 
 ![image](https://github.com/user-attachments/assets/ce67a53e-7981-451d-9305-23ca3829e668)
 
+Código de la regresión: 
+
+![image](https://github.com/user-attachments/assets/67e409f0-88c3-43c2-ace3-3f95327da577)
+
+
 Analisis de la influencia de total volume y total bags en average price:
 
 ![image](https://github.com/user-attachments/assets/ecfd04f6-e0c9-4ec6-bfe6-6bd557b7a5b2)
 
 #5.10
 AveragePrice, 4046, 4225, 4770, y Total Volume
+
+Código de la regresión:
+
+![image](https://github.com/user-attachments/assets/5c8eaabb-3e8b-4c7d-a8ca-fc791741ba57)
+
 
 Grafico de valores predichos para el Average Price: 
 
