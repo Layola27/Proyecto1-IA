@@ -362,11 +362,12 @@ La regresión polinómica de grado 2 ahora presenta un R² de 0.75, lo que signi
 El RMSE (error cuadrático medio) ha disminuido en ambos modelos, lo que indica una mejora en la precisión de las predicciones.
 
 #4.6,4.7
-
 Primer resultado:
+
 ![image](https://github.com/user-attachments/assets/9625537a-d1de-47fd-a58f-ad7837f75bae)
 
 Resultado conseguido:
+
 ![image](https://github.com/user-attachments/assets/dc52cc56-b21a-4acb-baee-3a9bb2dd602a)
 
 Resumen del Resultado Intercepto: 1.6113
@@ -389,10 +390,12 @@ Coeficiente: -0.000001 Interpretación: Aumentos en el volumen de bolsas totales
 
 #4.8
 Comparación de modelos lineal y polinomico:
+
 Primer resultado:
 ![image](https://github.com/user-attachments/assets/54607d0c-5617-492a-9ab2-907c42fc0c7f)
 
 Resultado final:
+
 ![image](https://github.com/user-attachments/assets/4fc9288a-c332-49f6-9f59-ad570b9161b4)
 
 Análisis del Resultado
@@ -412,9 +415,11 @@ La regresión polinómica logra una leve mejora en RMSE y R² en comparación co
 
 #4.9
 Analisis de la influencia de total volume y total bags en average price: 
+
 ![image](https://github.com/user-attachments/assets/ce67a53e-7981-451d-9305-23ca3829e668)
 
 Analisis de la influencia de total volume y total bags en average price:
+
 ![image](https://github.com/user-attachments/assets/ecfd04f6-e0c9-4ec6-bfe6-6bd557b7a5b2)
 
 #5.10
