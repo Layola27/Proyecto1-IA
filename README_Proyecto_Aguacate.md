@@ -239,8 +239,12 @@ Inicio de predicciones (línea roja punteada): Marca la transición entre los da
 La gráfica combina una transformación polinómica y un ajuste estacional sinusoidal para modelar y predecir con mayor precisión las fluctuaciones cíclicas de los precios.
 
 #2.3
-Distribución del Volumen total de ventas
+Distribución del Volumen total de ventas:
 ![image](https://github.com/user-attachments/assets/2cd69f35-edb4-4bd4-8389-e67614f9d247)
+
+Distribución del Volumen total de ventas(escala lógratimica):
+![image](https://github.com/user-attachments/assets/7ea5f57d-92a9-4d62-97a6-6ce83a41f099)
+
 
 Conclusiones La distribución de ventas es altamente asimétrica: Volúmenes pequeños predominan en la mayoría de los registros. Hay valores atípicos (outliers) en los volúmenes más altos, lo cual afecta la media. La mediana es un mejor indicador del volumen típico, ya que no está afectada por los valores extremos. Este análisis sugiere que las ventas de aguacates están dominadas por muchas transacciones pequeñas, con pocas pero significativas ventas grandes. Si deseas analizar más a fondo:
 
