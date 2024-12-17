@@ -333,6 +333,7 @@ La línea de regresión lineal muestra una pendiente negativa constante que refl
 Los puntos de dispersión muestran una distribución dispersa, lo cual indica que aunque existe una tendencia general, la correlación entre AveragePrice y Total Volume es débil. Esto se alinea con la baja correlación (≈ -0.19) observada anteriormente en la matriz de correlación.
 
 #5.3 
+
 ![image](https://github.com/user-attachments/assets/175bbde4-2590-4db1-99ec-65842b4de8d9)
 
 El gráfico muestra:
@@ -344,6 +345,7 @@ Tiene el mejor rendimiento con R² = 0.73, mostrando un ajuste adecuado al patr�
 Aunque intentan capturar la no linealidad, introducen mayor error (RMSE) y tienen peores valores R². Se observa que el grado polinómico introduce sobreajuste, ya que los modelos no logran generalizar. Conclusión: La Regresión Lineal Mejorada es la opción óptima para este conjunto de datos, ya que proporciona el mejor equilibrio entre ajuste y error.
 
 #5.5
+
 Regresión lineal vs polinómica:
 ![image](https://github.com/user-attachments/assets/43d89470-8675-4cfa-813f-d0c9b89e0bc7)
 
@@ -360,6 +362,7 @@ La regresión polinómica de grado 2 ahora presenta un R² de 0.75, lo que signi
 El RMSE (error cuadrático medio) ha disminuido en ambos modelos, lo que indica una mejora en la precisión de las predicciones.
 
 #4.6,4.7
+
 Primer resultado:
 ![image](https://github.com/user-attachments/assets/9625537a-d1de-47fd-a58f-ad7837f75bae)
 
