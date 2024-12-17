@@ -299,6 +299,11 @@ Elasticidad y Precios: El primer gráfico mide la sensibilidad de la demanda al 
 Regiones con alta elasticidad negativa (como Northeast) tienen precios más altos en el segundo gráfico, lo cual respalda la teoría de que estas regiones son más sensibles a los aumentos de precio.
 Regiones con elasticidad positiva o baja (GreatLakes y Plains) muestran una menor respuesta de la demanda a variaciones en el precio.
 
+#4.3
+Volumen de ventas por tipo de bolsa:
+
+![image](https://github.com/user-attachments/assets/3d2c962a-7b2f-43b5-b637-55f8965ed564)
+
 
 #4.5
 Evolución de retención de ventas:
