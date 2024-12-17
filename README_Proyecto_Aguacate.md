@@ -245,3 +245,168 @@ Small Bags: Son el tipo de bolsa más vendido, especialmente para los aguacates 
 
 Convencionales: Representan la mayor proporción de ventas en todas las categorías de bolsas. Orgánicos: Aunque existen, sus volúmenes son muy bajos y se concentran principalmente en Small Bags.
 
+#3.5
+Relación entre precio promedio y volumen total de ventas:
+![image](https://github.com/user-attachments/assets/83592bd9-cb28-4705-a95f-1f12cb9dad0e)
+
+Análisis del Output Mejorado
+
+Relación No Lineal Entre Precio Promedio y Volumen de Ventas La tendencia no lineal representada por la curva roja muestra una relación decreciente entre el Precio Promedio (AveragePrice) y el Volumen Total de Ventas. Este ajuste captura mejor la naturaleza de los datos, destacando que: A medida que aumenta el precio, el volumen de ventas tiende a disminuir significativamente. Sin embargo, la pendiente de la curva es más pronunciada al inicio (precios bajos), lo que indica una alta sensibilidad de la demanda en rangos de precios bajos. A precios más altos (mayores a 2.0), el volumen se estabiliza cerca de cero, indicando que la demanda cae a niveles muy bajos.
+Mejoras en el Gráfico La inclusión de una regresión no lineal proporciona una representación más realista de la relación. El ajuste polinómico logra capturar la caída progresiva del volumen a medida que aumenta el precio promedio. La nube de puntos sigue mostrando alta dispersión en precios bajos, lo cual podría estar influenciado por: Segmentación del mercado: Diferentes regiones o tipos de aguacates responden de manera desigual a los cambios en precio. Temporada: La estacionalidad puede impactar el comportamiento del consumidor en precios bajos.
+
+#4.1
+Grafico precio promedio y volumen total: 
+![image](https://github.com/user-attachments/assets/d0534ce5-346d-4a84-b880-8ce3b5befe56)
+
+Relación Inversa:
+
+La relación negativa entre precios promedios y volumen total suavizado sugiere que mayores niveles de oferta (más volumen de ventas) tienden a presionar los precios a la baja, posiblemente debido a un aumento en la disponibilidad. Picos Importantes:
+
+Volumen más alto: Ocurre en 2017-Q3. Precio promedio más alto: Alrededor de 2017-Q4, coincidiendo con una caída en el volumen total. Suavización de Datos:
+
+La técnica de promedio móvil ayuda a eliminar ruido, facilitando la identificación de patrones en los datos.
+
+Gráfico por region: 
+![image](https://github.com/user-attachments/assets/9812d0d8-0b55-4954-96ad-8f31ccee5ef1)
+
+La región Northeast mantiene precios promedio superiores en la mayoría de los trimestres, con un pico notable en 2017 Q3. California experimenta un aumento en los precios en 2017 Q3, coincidiendo con una caída en volúmenes (posible escasez de oferta o demanda elevada). West y SouthCentral muestran precios más bajos y estables, reflejando posiblemente un mercado más competitivo. Análisis:
+
+Las diferencias en los precios promedio pueden estar relacionadas con: Elasticidad precio-demanda en cada región. Costos logísticos y oferta disponible localmente. Es interesante notar que los picos de precios no siempre coinciden con una caída drástica en ventas, lo que sugiere una demanda inelástica en algunas regiones.
+
+Grafico de elasticidad: 
+![image](https://github.com/user-attachments/assets/2a68a71c-fac8-4dd5-9bcf-f2184f8ad5cf)
+
+Elasticidad y Precios: El primer gráfico mide la sensibilidad de la demanda al precio, mientras que el segundo gráfico muestra las tendencias de precios promedio a lo largo del tiempo por región.
+Regiones con alta elasticidad negativa (como Northeast) tienen precios más altos en el segundo gráfico, lo cual respalda la teoría de que estas regiones son más sensibles a los aumentos de precio.
+Regiones con elasticidad positiva o baja (GreatLakes y Plains) muestran una menor respuesta de la demanda a variaciones en el precio.
+
+
+#4.5
+Evolución de retención de ventas:
+![image](https://github.com/user-attachments/assets/41f432ef-688d-4398-b940-4e1daef3407b)
+
+Tasa de Retención (%) (línea azul):
+
+Se observan fluctuaciones significativas en la tasa de retención.
+Algunos periodos muestran picos muy pronunciados (160.9% en 2016-Q4) y valles mínimos (71.2% en 2017-Q3).
+Tendencia Suavizada (línea roja punteada):
+
+Utiliza una media móvil de 3 periodos para eliminar ruido y mostrar la tendencia general.
+La tendencia suavizada permite identificar una caída general entre 2015 y 2016, seguida de una recuperación moderada a partir de finales de 2016.
+Puntos Destacados:
+
+Pico Máximo (160.9%): Ocurre en 2016-Q4, posiblemente relacionado con un aumento temporal en las ventas.
+Valle Mínimo (71.2%): En 2017-Q3, indicando una caída drástica en la retención.
+
+#5.1
+Matriz de correlación entre variables númericas:
+![image](https://github.com/user-attachments/assets/2df5217b-4f39-448e-8409-7612dda1e863)
+
+Relaciones más Significativas Total Volume y 4046, 4225, 4770, Total Bags:
+
+Total Volume tiene altas correlaciones positivas con las demás variables (4046: 0.98, 4225: 0.97, 4770: 0.87, Total Bags: 0.96). Interpretación: Dado que Total Volume es el volumen total vendido, no es sorprendente que esté directamente relacionado con el volumen de aguacates en cada categoría de tamaño. AveragePrice y las demás variables:
+
+La correlación de AveragePrice con otras variables es débil y negativa: Total Volume: -0.19 4046: -0.21 4225: -0.17 4770: -0.18 Total Bags: -0.18 Interpretación: El precio promedio (AveragePrice) tiene una ligera correlación inversa con las ventas en volumen y tamaño. Es posible que cuando el volumen de ventas aumenta, el precio disminuye debido a una mayor oferta. Relación entre las categorías de tamaño (4046, 4225, 4770) y Total Bags:
+
+4046, 4225, 4770 tienen correlaciones positivas fuertes con Total Bags (0.93, 0.91 y 0.79 respectivamente). Interpretación: Total Bags es la suma de bolsas pequeñas, grandes y extra grandes, por lo que estas relaciones son esperadas y significativas. Correlación con year:
+
+year tiene correlaciones muy cercanas a 0 con todas las demás variables. Interpretación: No parece haber una tendencia clara de las variables numéricas con respecto al tiempo.
+
+5.2
+Analisis de dispersión PRECIO PROMEDIO - VOLUMEN TOTAL:
+![image](https://github.com/user-attachments/assets/7b2ce1b8-a30c-4bc9-9ed7-a9feb9e87b04)
+
+Descripción del Gráfico El gráfico muestra:
+
+Datos en dispersión: Representan la relación entre el precio promedio (AveragePrice) y el volumen total (Total Volume). Líneas de ajuste: Regresión lineal (en rojo): Representa una relación lineal entre las variables. Regresión polinómica de grado 2 (en verde): Captura posibles curvaturas y relaciones no lineales.
+
+Observaciones Clave Tendencia General:
+Existe una relación negativa entre AveragePrice y Total Volume, es decir, a medida que el precio promedio disminuye, el volumen total de ventas tiende a aumentar. Esto coincide con la ley de oferta y demanda: precios más bajos impulsan mayores ventas. Ajuste Lineal vs. Polinómico:
+
+La línea de regresión lineal muestra una pendiente negativa constante que refleja la tendencia general decreciente. La línea de regresión polinómica (grado 2) presenta una ligera curvatura que sugiere una relación no lineal, capturando mejor la variabilidad de los datos en comparación con la línea recta. Sin embargo, la curvatura es suave, lo que sugiere que un modelo lineal puede ser suficiente para describir esta relación. Dispersiones:
+
+Los puntos de dispersión muestran una distribución dispersa, lo cual indica que aunque existe una tendencia general, la correlación entre AveragePrice y Total Volume es débil. Esto se alinea con la baja correlación (≈ -0.19) observada anteriormente en la matriz de correlación.
+
+#5.3 
+![image](https://github.com/user-attachments/assets/175bbde4-2590-4db1-99ec-65842b4de8d9)
+
+El gráfico muestra:
+
+Valores Reales (línea naranja) vs Regresión Lineal Mejorada (línea verde punteada). Las predicciones están ajustadas trimestralmente con tres modelos: Regresión Lineal: RMSE = 58,971,977.17, R² = 0.73. Polinómico Grado 2: RMSE = 77,564,358.96, R² = 0.37. Polinómico Grado 3: RMSE = 78,947,227.69, R² = 0.35. Análisis del Resultado: Regresión Lineal:
+
+Tiene el mejor rendimiento con R² = 0.73, mostrando un ajuste adecuado al patrón de los datos reales. El error RMSE es bajo comparado con los modelos polinómicos. Modelos Polinómicos (Grado 2 y 3):
+
+Aunque intentan capturar la no linealidad, introducen mayor error (RMSE) y tienen peores valores R². Se observa que el grado polinómico introduce sobreajuste, ya que los modelos no logran generalizar. Conclusión: La Regresión Lineal Mejorada es la opción óptima para este conjunto de datos, ya que proporciona el mejor equilibrio entre ajuste y error.
+
+#5.5
+Regresión lineal vs polinómica:
+![image](https://github.com/user-attachments/assets/43d89470-8675-4cfa-813f-d0c9b89e0bc7)
+
+
+Regresión Lineal vs Polinómica
+![image](https://github.com/user-attachments/assets/a309eb2d-cfec-466f-a858-33086709e63e)
+
+En la primera gráfica, la regresión lineal y polinómica mostraban un rendimiento deficiente. El R² (coeficiente de determinación) era bajo, lo que indica que el modelo no explicaba adecuadamente la variabilidad de los datos. Los valores predichos no se ajustaban a las fluctuaciones de los datos reales, especialmente en picos y caídas. Mejoras Aplicadas:
+
+Incorporación de Variables Adicionales: Se añadieron AveragePrice y ventas por tipo de bolsa (Small Bags, Large Bags) para enriquecer el modelo y capturar mejor los factores influyentes en las ventas. Segmentación Temporal: Se pasó de datos anuales (freq='Y') a datos trimestrales (freq='Q'), lo que permitió capturar con mayor precisión las fluctuaciones periódicas. Eliminación de Outliers: Se identificaron y eliminaron valores atípicos que distorsionaban el ajuste de los modelos. Ajuste del Modelo Polinómico: Se utilizó un grado 2 de polinomio para evitar sobreajuste y se aplicó validación cruzada para evaluar la estabilidad del modelo. Análisis de la Segunda Gráfica Ajuste Mejorado:
+
+La regresión polinómica de grado 2 ahora presenta un R² de 0.75, lo que significa que el modelo explica el 75% de la variabilidad de los datos reales. La regresión lineal también ha mejorado su ajuste, alcanzando un R² de 0.72, lo que sugiere que ambos modelos son útiles. Reducción de Errores:
+
+El RMSE (error cuadrático medio) ha disminuido en ambos modelos, lo que indica una mejora en la precisión de las predicciones.
+
+#4.6,4.7
+Primer resultado:
+![image](https://github.com/user-attachments/assets/9625537a-d1de-47fd-a58f-ad7837f75bae)
+
+Resultado conseguido:
+![image](https://github.com/user-attachments/assets/dc52cc56-b21a-4acb-baee-3a9bb2dd602a)
+
+Resumen del Resultado Intercepto: 1.6113
+
+Representa el valor estimado de AveragePrice cuando todas las variables independientes (4046, 4225, 4770, Total Bags) son 0. Coeficientes:
+
+4046: -0.000001 4225: -0.000000 4770: -0.000012 Total Bags: -0.000001 Métricas del Modelo:
+
+RMSE (Root Mean Squared Error): 0.3272 Mide el error medio cuadrático entre las predicciones del modelo y los valores reales. Este valor indica que existe una dispersión moderada entre los valores predichos y los reales. R² (Coeficiente de Determinación): 0.2209 El modelo solo explica aproximadamente el 22.1% de la variabilidad en AveragePrice. Es un valor bajo, lo que sugiere que las variables utilizadas no son muy predictivas del precio promedio. Interpretación de los Coeficientes Los coeficientes de las variables indican la relación lineal entre cada variable independiente y la variable dependiente AveragePrice:
+
+Variable 4046:
+
+Coeficiente: -0.000001 Interpretación: A medida que el volumen de aguacates 4046 (pequeños) aumenta en una unidad, AveragePrice disminuye en 0.000001 unidades, manteniendo las demás variables constantes. Impacto: Prácticamente insignificante debido al tamaño del coeficiente. Variable 4225:
+
+Coeficiente: -0.000000 Interpretación: Sin impacto relevante sobre AveragePrice. Variable 4770:
+
+Coeficiente: -0.000012 Interpretación: A medida que el volumen de aguacates 4770 (extra grandes) aumenta en una unidad, AveragePrice disminuye en 0.000012 unidades. Impacto: Aunque el valor es más significativo comparado con las otras variables, sigue siendo muy pequeño. Variable Total Bags:
+
+Coeficiente: -0.000001 Interpretación: Aumentos en el volumen de bolsas totales están asociados con una ligera disminución en AveragePrice. Impacto: Insignificante.
+
+#4.8
+Comparación de modelos lineal y polinomico:
+Primer resultado:
+![image](https://github.com/user-attachments/assets/54607d0c-5617-492a-9ab2-907c42fc0c7f)
+
+Resultado final:
+![image](https://github.com/user-attachments/assets/4fc9288a-c332-49f6-9f59-ad570b9161b4)
+
+Análisis del Resultado
+
+Descripción del Gráfico El gráfico muestra una comparación de los modelos de regresión lineal y polinómica (grado 2) para predecir AveragePrice a partir de las variables Total Volume, 4046, 4225 y 4770. Ejes: Eje X: Valores reales de AveragePrice. Eje Y: Valores predichos de AveragePrice. Línea ideal (en negro punteada): Representa una predicción perfecta, donde los valores reales y predichos coinciden exactamente. Puntos de Predicción: Azul: Modelo de regresión lineal. Naranja: Modelo de regresión polinómica (grado 2).
+Evaluación de Métricas Regresión Lineal:
+RMSE: 0.3301 → Indica el error promedio en las predicciones. R²: 0.1323 → Muy bajo, muestra que el modelo lineal explica solo un 13.23% de la variabilidad en AveragePrice. Validación Cruzada R²: 0.1456 → Consistencia baja en la validación cruzada. Regresión Polinómica (Grado 2):
+
+RMSE: 0.3237 → Ligeramente menor que el modelo lineal, indicando una mejora en la precisión. R²: 0.1658 → Mejor que el modelo lineal (16.58%), pero aún bajo, indicando que la relación no es capturada completamente. Validación Cruzada R²: 0.1813 → Mejor desempeño en validación cruzada, indicando que el modelo generaliza un poco mejor.
+
+Interpretación del Gráfico Distribución de Puntos:
+Ambos modelos tienen una concentración de predicciones alrededor de valores fijos (entre 1.4 y 1.6) en el eje Y, lo que sugiere que los modelos subestiman o sobreestiman en ciertos rangos de valores reales. La regresión polinómica (naranja) captura ligeras curvaturas, pero aún no muestra una mejora significativa sobre la regresión lineal. Desviación de la Línea Ideal:
+
+La mayoría de los puntos predichos se alejan considerablemente de la línea ideal. Esto indica que ningún modelo está logrando ajustarse bien a los valores reales. Mejora con la Regresión Polinómica:
+
+La regresión polinómica logra una leve mejora en RMSE y R² en comparación con la regresión lineal, pero la diferencia sigue siendo pequeña.
+
+#4.9
+Analisis de la influencia de total volume y total bags en average price: 
+![image](https://github.com/user-attachments/assets/ce67a53e-7981-451d-9305-23ca3829e668)
+
+Analisis de la influencia de total volume y total bags en average price:
+![image](https://github.com/user-attachments/assets/ecfd04f6-e0c9-4ec6-bfe6-6bd557b7a5b2)
+
+#5.10
