@@ -57,7 +57,7 @@ Analisis de series temporales:
 Grafico deTendencia de los precios del aguacate 
 ![image](https://github.com/user-attachments/assets/f47d28d4-c397-4a02-b212-64674724340d)
 
-Grafico deTendencia de los precios del aguacate usando regresión lineal simple.
+Grafico deTendencia de los precios del aguacate usando los parámetros de la regresión lineal (m, b) para poder graficar la linea de tendencia.
 ![image](https://github.com/user-attachments/assets/90778019-76bc-49fe-bcc4-3d3ff4a7cec8)
 
 Grafico evolución del volumen total en los aguacates ogránicos:
