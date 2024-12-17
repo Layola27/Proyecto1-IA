@@ -80,6 +80,16 @@ Conclusión Global:
 Los datos sugieren una transición en la preferencia del mercado: los aguacates orgánicos están ganando participación, lo que impacta en los precios generales al aumentar la demanda.
 El mercado de aguacates presenta una tendencia de crecimiento, tanto en precios como en volumen, con un énfasis notable en productos orgánicos.
 
+Grafico de Estacionalidad en los precios del los aguacates:
+
+![image](https://github.com/user-attachments/assets/e623ee38-e181-48f4-a868-7fbaf27c013a)
+
+Análisis del Resultado: Estacionalidad:
+
+La curva sinusoidal captura un ciclo repetitivo que corresponde a los patrones anuales en los precios promedio de los aguacates. Aunque no coincide perfectamente con todas las fluctuaciones, logra identificar un patrón subyacente. Error Absoluto Promedio (MAE):
+
+El MAE de 0.1027 es bastante bajo considerando la simplicidad del modelo sinusoidal. Esto confirma que el modelo está alineado razonablemente bien con los datos reales. 
+
 #1.2
 Precio promedio en regiones con cohortes geograficas (situación geográfica):
 -Costa Este
