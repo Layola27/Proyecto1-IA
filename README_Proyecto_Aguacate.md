@@ -346,6 +346,11 @@ Los puntos de dispersión muestran una distribución dispersa, lo cual indica qu
 
 ![image](https://github.com/user-attachments/assets/175bbde4-2590-4db1-99ec-65842b4de8d9)
 
+Código de la regresión: 
+
+![image](https://github.com/user-attachments/assets/3c758540-8a9e-427a-aeea-3f2c24311c53)
+
+
 El gráfico muestra:
 
 Valores Reales (línea naranja) vs Regresión Lineal Mejorada (línea verde punteada). Las predicciones están ajustadas trimestralmente con tres modelos: Regresión Lineal: RMSE = 58,971,977.17, R² = 0.73. Polinómico Grado 2: RMSE = 77,564,358.96, R² = 0.37. Polinómico Grado 3: RMSE = 78,947,227.69, R² = 0.35. Análisis del Resultado: Regresión Lineal:
