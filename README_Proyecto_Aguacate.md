@@ -1,7 +1,7 @@
 # Análisis del Conjunto de Datos de Precios de Aguacate
 
 ## Descripción del Proyecto
-✨✨✨ Este proyecto explora el mercado del aguacate en los Estados Unidos utilizando datos históricos obtenidos de Kaggle. El objetivo principal es identificar tendencias, analizar patrones estacionales y regionales, y comprender la evolución de los precios y volúmenes de venta. Además, se busca preparar el conjunto de datos para posibles aplicaciones en modelado predictivo y aprendizaje automático. ✨✨✨
+✨✨✨ Este proyecto explora el mercado del aguacate en los Estados Unidos utilizando datos históricos. El objetivo principal es identificar tendencias, analizar patrones estacionales y regionales, y comprender la evolución de los precios y volúmenes de venta. Además, se busca preparar el conjunto de datos para posibles aplicaciones en modelado predictivo y aprendizaje automático. ✨✨✨
 
 ## Características del Proyecto
 El proyecto está diseñado para:
